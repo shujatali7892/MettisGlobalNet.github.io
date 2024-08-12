@@ -1,3 +1,5 @@
+  
+
 (async () => {
     const data = await fetch(
         'https://www.highcharts.com/samples/data/usdeur.json'
@@ -29,7 +31,7 @@
                 align: 'right',
                 x: 0,
                 style: {
-                    color: '#b55b22',  // You can customize this color
+                    color: '#EC9F34',  // You can customize this color
                     fontSize: '12px',  // You can customize the font size
                     fontWeight: 'bold' // You can customize the font weight
                 }
@@ -52,8 +54,8 @@
                         y2: 1
                     },
                     stops: [
-                        [0, '#b55b22'],
-                        [0.9, '#ebb08a']
+                        [0, '#EC9F34'],
+                        [0.9, '#EC9F34']
                     ]
                 },
                 states: {
@@ -73,7 +75,7 @@
 })();
 (async () => {
     const data = await fetch(
-        'https://www.highcharts.com/samples/data/usdeur.json'
+        ''
     ).then(response => response.json());
 
     Highcharts.chart('BR30', {
@@ -102,7 +104,7 @@
                 align: 'right',
                 x: 0,
                 style: {
-                    color: '#b55b22',  // You can customize this color
+                    color: '#EC9F34',  // You can customize this color
                     fontSize: '12px',  // You can customize the font size
                     fontWeight: 'bold' // You can customize the font weight
                 }
@@ -125,8 +127,8 @@
                         y2: 1
                     },
                     stops: [
-                        [0, '#b55b22'],
-                        [0.9, '#ebb08a']
+                        [0, '#EC9F34'],
+                        [0.9, '#EC9F34']
                     ]
                 },
                 states: {
@@ -175,7 +177,7 @@
                 align: 'right',
                 x: 0,
                 style: {
-                    color: '#b55b22',  // You can customize this color
+                    color: '#EC9F34',  // You can customize this color
                     fontSize: '12px',  // You can customize the font size
                     fontWeight: 'bold' // You can customize the font weight
                 }
@@ -198,8 +200,8 @@
                         y2: 1
                     },
                     stops: [
-                        [0, '#b55b22'],
-                        [0.9, '#ebb08a']
+                        [0, '#EC9F34'],
+                        [0.9, '#EC9F34']
                     ]
                 },
                 states: {
@@ -248,7 +250,7 @@
                 align: 'right',
                 x: 0,
                 style: {
-                    color: '#b55b22',  // You can customize this color
+                    color: '#EC9F34',  // You can customize this color
                     fontSize: '12px',  // You can customize the font size
                     fontWeight: 'bold' // You can customize the font weight
                 }
@@ -271,8 +273,8 @@
                         y2: 1
                     },
                     stops: [
-                        [0, '#b55b22'],
-                        [0.9, '#ebb08a']
+                        [0, '#EC9F34'],
+                        [0.9, '#EC9F34']
                     ]
                 },
                 states: {
@@ -321,7 +323,7 @@
                 align: 'right',
                 x: 0,
                 style: {
-                    color: '#b55b22',  // You can customize this color
+                    color: '#EC9F34',  // You can customize this color
                     fontSize: '12px',  // You can customize the font size
                     fontWeight: 'bold' // You can customize the font weight
                 }
@@ -344,8 +346,8 @@
                         y2: 1
                     },
                     stops: [
-                        [0, '#b55b22'],
-                        [0.9, '#ebb08a']
+                        [0, '#EC9F34'],
+                        [0.9, '#EC9F34']
                     ]
                 },
                 states: {
@@ -415,7 +417,7 @@ Highcharts.chart('PolicyRate', {
     },
     series: [{
         name: 'Ready', 
-        color: '#b55b22', // Add this line to change the color to red 
+        color: '#EC9F34', // Add this line to change the color to red 
         data: [
             11.44, 14.89, 21.40, 34.03, 51.52,
             70.49, 94.46, 129.44, 127.84, 130.80
@@ -510,8 +512,8 @@ Highcharts.chart('Forexchrt', {
                         y2: 1
                     }, 
                     stops: [
-                        [0, '#b55b22'],
-                        [0.9, '#ebb08a']
+                        [0, '#EC9F34'],
+                        [0.9, '#EC9F34']
                     ]
                 },
                 states: {
@@ -581,7 +583,7 @@ Highcharts.chart('USDPKR', {
     
     series: [{
         name: 'Ready',
-      color:  '#ebb08a',
+      color:  '#EC9F34',
         data: [
             10, 32, 19, 13, 50, 70      
         ]
